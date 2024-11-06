@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="bg-no-repeat md:bg-[url('./public/image-hero-tablet.png')] md:bg-[calc(100%_+_293px)_calc(100%_+_17px)] xl:bg-[url('image-hero-desktop.png')] xl:bg-[calc(100%_+_335px)_calc(100%_+_-2px)]">
+    <header className="bg-no-repeat md:bg-[url('/image-hero-tablet.png')] md:bg-[calc(100%_+_293px)_calc(100%_+_17px)] xl:bg-[url('/image-hero-desktop.png')] xl:bg-[calc(100%_+_335px)_calc(100%_+_-2px)]">
       <nav className="relative flex items-center justify-between px-[20px] py-[16px] md:px-[44px] md:py-[37px] xl:px-[160px]">
         <img
           src="logo-dark.svg"
