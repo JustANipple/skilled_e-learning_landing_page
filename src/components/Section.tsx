@@ -1,7 +1,7 @@
 const Section = () => {
   return (
-    <section className="grid gap-y-[61px] px-[20px] pb-[80px] pt-[64px]">
-      <p className="rounded-[15px] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] p-[32px] text-[24px] font-extrabold leading-[1.2] text-white">
+    <section className="grid gap-y-[61px] px-[20px] pb-[80px] pt-[64px] md:grid-cols-2 md:gap-x-[24px] md:gap-y-[60px] md:px-[44px] md:pb-[144px] md:pt-[91px]">
+      <p className="rounded-[15px] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] p-[32px] text-[24px] font-extrabold leading-[1.2] text-white md:py-[64px]">
         Check out our most popular courses!
       </p>
       <Card
@@ -43,18 +43,22 @@ const Card = ({
   paragraph: string;
 }) => {
   return (
-    <div className="relative rounded-[15px] px-[32px] pb-[40px] pt-[64px] shadow-2xl shadow-[rgba(0,0,0,0.15)]">
+    <div className="relative h-[322px] rounded-[15px] px-[32px] pb-[40px] pt-[64px] shadow-2xl shadow-[rgba(0,0,0,0.15)]">
       <img
         src={image}
         alt="running stickman"
         className="absolute left-[32px] top-[-28px]"
       />
-      <div className="grid gap-y-[24px]">
-        <p className="text-[20px] font-extrabold leading-[1.2] text-[#13183F]">
-          {title}
-        </p>
-        <p className="text-[16px] font-bold text-[#83869A]">{paragraph}</p>
-        <button className="max-w-fit text-[18px] font-bold leading-[1.5] text-[#F74780]">
+      <div className="grid place-content-between gap-y-[24px] md:h-full md:gap-y-[30px]">
+        <div className="grid gap-y-[24px]">
+          <p className="text-[20px] font-extrabold leading-[1.2] text-[#13183F]">
+            {title}
+          </p>
+          <p className="text-[16px] font-bold text-[#83869A] md:text-[18px] md:font-medium md:leading-[1.5]">
+            {paragraph}
+          </p>
+        </div>
+        <button className="max-w-fit text-[18px] font-bold leading-[1.5] text-[#F74780] md:max-h-[29.5px]">
           Get Started
         </button>
       </div>

@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-between bg-[#13183F] px-[20px] py-[24px]">
+    <footer className="flex items-center justify-between bg-[#13183F] px-[20px] py-[24px] md:px-[44px]">
       <img
         src="src/assets/logo-light.svg"
         alt="skilled logo"
