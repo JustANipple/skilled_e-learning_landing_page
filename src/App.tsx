@@ -5,11 +5,11 @@ import Section from "./components/Section";
 
 function App() {
   return (
-    <>
+    <main>
       <Header />
       <Section />
       <Footer />
-    </>
+    </main>
   );
 }
 

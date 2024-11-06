@@ -14,9 +14,9 @@ const Header = () => {
       <div className="grid place-items-center gap-y-[66px] pb-[14px] pt-[64px] md:grid-cols-2 md:px-[44px] md:py-[64px] xl:place-items-start xl:px-[160px] xl:py-[136px]">
         <div className="grid max-w-[457px] gap-y-[40px] px-[20px] md:px-0 md:py-[42px]">
           <div className="grid gap-y-[24px] md:gap-y-[25px] xl:max-w-[457px]">
-            <p className="text-[40px] font-extrabold leading-[1.2] text-[#13183F] xl:text-[56px]">
+            <h1 className="text-[40px] font-extrabold leading-[1.2] text-[#13183F] xl:text-[56px]">
               Maximize skill, minimize budget
-            </p>
+            </h1>
             <p className="pr-2 text-[18px] font-medium leading-[1.5] text-[#83869A] md:pr-3 xl:pr-0">
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.

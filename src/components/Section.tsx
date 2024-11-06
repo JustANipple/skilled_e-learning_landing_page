@@ -1,9 +1,9 @@
 const Section = () => {
   return (
     <section className="grid place-items-center gap-y-[59px] bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF] px-[20px] pb-[80px] pt-[64px] md:grid-cols-2 md:gap-x-[24px] md:gap-y-[57px] md:px-[44px] md:pb-[144px] md:pt-[91px] xl:grid-cols-3 xl:gap-x-[32px] xl:gap-y-[85px] xl:px-[160px] xl:pt-[89px]">
-      <p className="h-full max-w-[352px] rounded-[15px] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] p-[32px] text-[24px] font-extrabold leading-[1.2] text-white md:py-[64px] xl:text-[32px]">
+      <h2 className="h-full max-w-[352px] rounded-[15px] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] p-[32px] text-[24px] font-extrabold leading-[1.2] text-white md:py-[64px] xl:text-[32px]">
         Check out our most popular courses!
-      </p>
+      </h2>
       <Card
         image="icon-animation.svg"
         title="Animation"
