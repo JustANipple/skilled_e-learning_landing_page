@@ -5,27 +5,27 @@ const Section = () => {
         Check out our most popular courses!
       </p>
       <Card
-        image="./src/assets/icon-animation.svg"
+        image="./public/assets/icon-animation.svg"
         title="Animation"
         paragraph="Learn the latest animation techniques to create stunning motion design and captivate your audience."
       />
       <Card
-        image="./src/assets/icon-design.svg"
+        image="./public/assets/icon-design.svg"
         title="Design"
         paragraph="Create beautiful, usable interfaces to help shape the future of how the web looks."
       />
       <Card
-        image="./src/assets/icon-photography.svg"
+        image="./public/assets/icon-photography.svg"
         title="Photography"
         paragraph="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
       />
       <Card
-        image="./src/assets/icon-crypto.svg"
+        image="./public/assets/icon-crypto.svg"
         title="Crypto"
         paragraph="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
       />
       <Card
-        image="./src/assets/icon-business.svg"
+        image="./public/assets/icon-business.svg"
         title="Business"
         paragraph="A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
       />
@@ -44,11 +44,7 @@ const Card = ({
 }) => {
   return (
     <div className="relative h-full max-w-[352px] rounded-[15px] bg-white px-[32px] pb-[42px] pt-[64px] shadow-2xl shadow-[rgba(0,0,0,0.05)] xl:pt-[63px]">
-      <img
-        src={image}
-        alt="running stickman"
-        className="absolute left-[32px] top-[-28px]"
-      />
+      <img src={image} alt="" className="absolute left-[32px] top-[-28px]" />
       <div className="grid place-content-between gap-y-[24px] md:h-full md:gap-y-[34px] xl:gap-y-[28px]">
         <div className="grid gap-y-[25px]">
           <p className="text-[20px] font-extrabold leading-[1.2] text-[#13183F] xl:text-[24px]">

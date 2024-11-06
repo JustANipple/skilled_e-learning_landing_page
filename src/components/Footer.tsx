@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="flex items-center justify-between bg-[#13183F] px-[20px] py-[24px] md:px-[44px] xl:px-[160px]">
       <img
-        src="src/assets/logo-light.svg"
+        src="public/assets/logo-light.svg"
         alt="skilled logo"
         className="max-h-[21px] xl:max-h-[30px]"
       />
