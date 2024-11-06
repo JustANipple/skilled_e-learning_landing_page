@@ -2,10 +2,10 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="bg-no-repeat md:bg-image-hero-tablet md:bg-[calc(100%_+_293px)_calc(100%_+_17px)] xl:bg-image-hero-desktop xl:bg-[calc(100%_+_335px)_calc(100%_+_-2px)]">
+    <header className="bg-no-repeat md:bg-[url('./public/image-hero-tablet.png')] md:bg-[calc(100%_+_293px)_calc(100%_+_17px)] xl:bg-[url('image-hero-desktop.png')] xl:bg-[calc(100%_+_335px)_calc(100%_+_-2px)]">
       <nav className="relative flex items-center justify-between px-[20px] py-[16px] md:px-[44px] md:py-[37px] xl:px-[160px]">
         <img
-          src="./public/assets/logo-dark.svg"
+          src="logo-dark.svg"
           alt="skilled logo"
           className="max-h-[21px] xl:max-h-[30px]"
         />
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className="overflow-hidden md:overflow-visible">
           <img
-            src="./public/assets/image-hero-mobile.png"
+            src="image-hero-mobile.png"
             alt="image hero"
             className="scale-[1.16] md:hidden"
           />

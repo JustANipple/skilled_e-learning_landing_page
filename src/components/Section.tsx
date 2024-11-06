@@ -5,27 +5,27 @@ const Section = () => {
         Check out our most popular courses!
       </p>
       <Card
-        image="./public/assets/icon-animation.svg"
+        image="icon-animation.svg"
         title="Animation"
         paragraph="Learn the latest animation techniques to create stunning motion design and captivate your audience."
       />
       <Card
-        image="./public/assets/icon-design.svg"
+        image="icon-design.svg"
         title="Design"
         paragraph="Create beautiful, usable interfaces to help shape the future of how the web looks."
       />
       <Card
-        image="./public/assets/icon-photography.svg"
+        image="icon-photography.svg"
         title="Photography"
         paragraph="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
       />
       <Card
-        image="./public/assets/icon-crypto.svg"
+        image="icon-crypto.svg"
         title="Crypto"
         paragraph="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
       />
       <Card
-        image="./public/assets/icon-business.svg"
+        image="icon-business.svg"
         title="Business"
         paragraph="A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
       />
